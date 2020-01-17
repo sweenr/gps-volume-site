@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter SaaS Marketing`,
-    description: `A simple one page marketing starter for saas companies.`,
-    author: `Keegan Burkett`,
+    title: `GPS Volume`,
+    description: `GPS Volume, an Android app to control the volume of your device based on speed.`,
+    author: `Richard Sween`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -31,13 +31,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `GPS Volume App`,
+        short_name: `GPS Volume`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ffffff`,
+        theme_color: `#233140`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`,
+        icon: `src/images/web_icon.png`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

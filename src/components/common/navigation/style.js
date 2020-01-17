@@ -8,7 +8,7 @@ export const Nav = styled.nav`
   width: 100%;
   top: 0;
   z-index: 1000;
-  background: ${props => (props.scrolled ? `white` : null)};
+  background: #2c3e50;
   transition: 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
 `
 
@@ -48,7 +48,7 @@ export const NavItem = styled.li`
   a {
     text-decoration: none;
     opacity: 0.9;
-    color: ${props => props.theme.color.black.regular};
+    color: white;
   }
 
   &.active {
@@ -78,7 +78,7 @@ export const Brand = styled.div`
     padding: 0;
 
     a {
-      color: ${props => props.theme.color.black.regular};
+      color: white;
       text-decoration: none;
     }
   }

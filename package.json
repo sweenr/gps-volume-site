@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-saas-marketing",
+  "name": "gatsby-gpsvolume-site",
   "private": true,
-  "description": "A simple one page marketing starter for saas companies",
+  "description": "An informative website for the GPS Volume App",
   "version": "0.1.0",
-  "author": "Keegan Burkett <keegan.t.marciniak@gmail.com>",
+  "author": "Richard Sween <richard@richardsween.com>",
   "dependencies": {
-    "gatsby": "^2.15.31",
+    "gatsby": "^2.18.22",
     "gatsby-image": "^2.2.24",
     "gatsby-plugin-manifest": "^2.2.20",
     "gatsby-plugin-offline": "^3.0.12",
@@ -22,6 +22,7 @@
     "react-dom": "^16.10.2",
     "react-feather": "^2.0.3",
     "react-helmet": "^5.2.1",
+    "react-image-gallery": "^1.0.4",
     "react-scrollspy": "^3.4.0",
     "styled-components": "^4.4.0"
   },
@@ -42,9 +43,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/sweenr/gps-volume-site"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/sweenr/gps-volume-site/issues"
   }
 }

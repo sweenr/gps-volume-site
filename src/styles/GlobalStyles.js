@@ -49,6 +49,12 @@ const GlobalStyles = createGlobalStyle`
 
   }
 
+  hr {
+    height: 2px;
+    border: none;
+    background-color: ${props => props.theme.color.primary};
+  }
+
   input {
     font-family: ${props => props.theme.font.normal};
   }
