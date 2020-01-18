@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-import { Section, Container } from "../global"
+import { Section, Container, SectionTitle } from "../global"
 
 const About = () => (
   <Section id="about">
@@ -31,14 +31,6 @@ const StyledContainer = styled(Container)`
   background-image: linear-gradient(to top, #fefefe 0%, #fbfbfb 100%); */
 `
 
-const SectionTitle = styled.h3`
-  color: ${props => props.theme.color.primary};
-  display: flex;
-  justify-content: center;
-  margin: 0 auto 40px;
-  text-align: center;
-`
-
 const FeaturesGrid = styled.div`
   max-width: 670px;
   display: grid;
@@ -54,7 +46,6 @@ const FeaturesGrid = styled.div`
 
 const FeatureItem = styled.div`
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 `

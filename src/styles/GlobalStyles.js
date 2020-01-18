@@ -31,6 +31,19 @@ const GlobalStyles = createGlobalStyle`
   h3 {
     ${props => props.theme.font_size.larger};
     font-family: ${props => props.theme.font.bold};
+    position: relative;
+  }
+
+  h3::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 33%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+    background-color: #2c3e50;
   }
 
   h4 {
@@ -69,6 +82,10 @@ const GlobalStyles = createGlobalStyle`
     }
 
     h3 {
+      ${props => props.theme.font_size.large};
+    }
+
+    h4 {
       ${props => props.theme.font_size.regular};
     }
 

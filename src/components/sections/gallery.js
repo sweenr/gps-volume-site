@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import ImageGallery from "react-image-gallery"
 
-import { Container, Section } from "../global"
+import { Container, Section, SectionTitle } from "../global"
 
 import "../../../node_modules/react-image-gallery/styles/css/image-gallery.css"
 
@@ -44,7 +44,7 @@ const images = [
 const Gallery = () => (
   <StyledSection id="gallery">
     <GalleryContainer>
-      <GalleryTitle>Gallery</GalleryTitle>
+      <SectionTitle>Gallery</SectionTitle>
       <ImageGallery items={images} showThumbnails={false} showFullscreenButton={false} autoPlay={true} slideInterval={5000} />
     </GalleryContainer>
   </StyledSection>
@@ -58,14 +58,10 @@ const StyledSection = styled(Section)`
 `
 
 const GalleryContainer = styled(Container)`
-  display: flex;
+  padding: 80px 0 40px;
+  /*display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 80px 0 40px;
-`
-
-const GalleryTitle = styled.h3`
-  margin: 0 auto 32px;
-  text-align: center;
+  */
 `

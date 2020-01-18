@@ -55,3 +55,11 @@ export const Section = styled.section`
         : props.theme.color.primary
     }`};
 `
+
+export const SectionTitle = styled.h3`
+  color: ${props => props.theme.color.primary};
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 40px;
+  text-align: center;
+`
